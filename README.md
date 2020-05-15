@@ -1,1 +1,2 @@
-# itmd565-lab2
+# Illinois Institute of Technology
+# Spring 2020
