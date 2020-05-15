@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Lab 2: JavaScript Hello World</title>
+</head>
+<body>
+	<script type="text/javascript">
+	// All lab code should be between these two comments
+
+	console.log("Emma Prager – eprager@hawk.iit.edu – Lab 2");
+
+	var name = prompt("What is your Name?");
+	if(name == "null" || name === null || name === ""){
+		window.alert("Hello World! You did not enter a name!");
+		console.log("Hello World! You did not enter a name!");
+	} else {
+		window.alert("Hello " + name + "!")
+		console.log("Hello " + name + "!")
+		console.log("Your name contains " + name.length + " characters.")
+	}
+	// All lab code should be between these two comments
+	</script>
+</body>
+</html>
